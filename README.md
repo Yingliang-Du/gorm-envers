@@ -1,6 +1,14 @@
 # gorm-envers
 A Grails Plugin for GORM domain audit using Hibernate Envers
 
+## Install this project
+```
+git clone https://github.com/Yingliang-Du/gorm-envers.git
+cd gorm-envers
+grails clean
+grails compile
+grails install
+```
 Start audit Domain classes in your Grails application:
 
 Add plugin dependency
