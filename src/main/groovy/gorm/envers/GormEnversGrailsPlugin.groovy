@@ -19,7 +19,7 @@ package gorm.envers
 
 import grails.plugins.*
 
-class GormEnvers3GrailsPlugin extends Plugin {
+class GormEnversGrailsPlugin extends Plugin {
 
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "3.0.3 > *"
@@ -36,7 +36,8 @@ class GormEnvers3GrailsPlugin extends Plugin {
     def author = "Yingliang Du"
     def authorEmail = "yingliang_d@yahoo.com"
     def description = '''\
-Brief summary/description of the plugin.
+The gorm-envers plugin add auditting functionality to GROM using Hibernate Envers in your Grails application. \
+The only thing you need to do is add @Auditted annotation to the Domain class you want to audit.
 '''
     def profiles = ['web']
 

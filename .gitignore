@@ -4,3 +4,7 @@
 # build ignore
 build/
 
+# IDE idea ignore
+.idea/
+gorm-envers.iml
+
